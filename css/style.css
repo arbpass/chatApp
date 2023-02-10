@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+#logo{
+    height: 60px;
+    display: block;
+    margin: 5px auto;
+    color: white;
+}
+
+.container{
+    background-color: transparent;
+    max-width: 50%;
+    height: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.message{
+    background-color: #262626;
+    color: white;
+    max-width: 42%;
+    margin: 5px 0;
+    border-radius: 20px 20px 0px 20px;
+    padding: 5px;
+    padding-inline: 15px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: monospace;
+}
+.message:hover{
+    background-color: white;
+    color: #262626;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+    margin: 10px 0;
+}
+#messageInp{
+    background-color: #262626;
+    color: white;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 10px;
+    vertical-align: sub;
+}
+#messageInp:hover{
+    background-color: white;
+    color: #262626;
+}
+.btn{
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+    font-size: 40px;
+    vertical-align: middle;
+}
+.btn:hover{
+    color: orange;
+    text-shadow: 1px 1px 10px orange;
+}
+
+.container2{
+    background-color: #262626;
+    text-align: center;
+    max-width: 20%;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.logsMessage{
+    color: white;
+}
